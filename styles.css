@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+/* Basic Styles */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+	
+}
+
+/* Playlist */
+.playlist {
+    margin-top: 30px;
+	background-color: rgb(255, 255, 255);
+  }
+
+/* Video and Audio Player Styles */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+
+video, audio {
+    width: 100%;
+    border-radius: 10px;
+}
